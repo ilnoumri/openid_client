@@ -223,6 +223,7 @@ class Credential {
   }
 
   String get refreshToken => _token.refreshToken;
+  String get accessToken => _token.accessToken;
 }
 
 enum FlowType { implicit, authorizationCode, proofKeyForCodeExchange }
